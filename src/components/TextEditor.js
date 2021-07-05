@@ -12,14 +12,20 @@ export default function TextEditor() {
   }, [editorState]);
   return (
     <div>
-      <h1>React Editors</h1>
-      <h2>Start editing to see some magic happen!</h2>
-      <div style={{ border: "1px solid black", padding: '2px', minHeight: '400px' }}>
+      <h1>Diary</h1>
+      <h2>Start editing from here!</h2>
+      <div style={{ border: "2px solid black", padding: '2px', minHeight: '400px' }}>
         <Editor
           editorState={editorState}
           onEditorStateChange={setEditorState}
         />
       </div>
+
+      <button style={{
+        backgroundColor: "#4CAF50",
+        fontSize:'25px'
+      }}>Save</button>
+      
     </div>
   );
 }
