@@ -20,12 +20,6 @@ export default function TextEditor() {
           onEditorStateChange={setEditorState}
         />
       </div>
-
-      <button style={{
-        backgroundColor: "#4CAF50",
-        fontSize:'25px'
-      }}>Save</button>
-      
     </div>
   );
 }
