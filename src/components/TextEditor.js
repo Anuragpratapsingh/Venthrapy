@@ -14,7 +14,7 @@ export default function TextEditor() {
     <div>
       <h1>Diary</h1>
       <h2>Start editing from here!</h2>
-      <div style={{ border: "2px solid black", padding: '2px', minHeight: '400px' }}>
+      <div style={{ padding: '2px', minHeight: '400px' }}>
         <Editor
           editorState={editorState}
           onEditorStateChange={setEditorState}
