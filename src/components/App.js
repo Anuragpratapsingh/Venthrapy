@@ -1,8 +1,9 @@
 import React from "react";
+import TextEditor from "./TextEditor";
 
 function App() {
   return <div className="App">
-    hello world
+    <TextEditor/>
   </div>;
 }
 
